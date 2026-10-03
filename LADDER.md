@@ -29,8 +29,10 @@ One arc: 7 standalone public repos, each a real component of the flagship, **Cra
 
 ## Rules for every rung
 
-1. **10 lines first.** I write what the rung does before any code. Only then does it get sliced.
+1. **Design doc first.** Before any code, I write a one-page `docs/design.md` and it passes a design review (see `MENTOR.md` §7). Only then does the rung get sliced.
 2. **Slice only on the day I start.** Later rungs stay at table level until then.
+   - **Every slice runs as** branch → PR (the description is the plan) → review → merge.
+   - **ADRs** go in `docs/adr/` for decisions with a real alternative.
 3. **6-week cap.** At the cap I ship what works, write a "what's missing" section and move on. The resume card says so once.
 4. **Definition of done:**
    - README with the problem, a design diagram, and the decisions with their trade-offs
@@ -53,7 +55,7 @@ A static portfolio/blog site (AI builds it, the only non-Go thing it builds) goe
 
 ## Rung 1 — `botcheck` (status: not started)
 
-**10 lines:** *(I write these at the first sitting, before slice 1.)*
+**Design doc:** *(I write `docs/design.md` at the first sitting, walked through by the mentor, before slice 1.)*
 
 **Slices:**
 - [ ] 1. **Walking skeleton:** an empty folder, then `go mod init`, then a `main.go` that reads log lines from stdin and prints them.

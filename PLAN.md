@@ -11,7 +11,7 @@ A plan I keep for the long run, with **Go as the foundation** and every other en
 ## Core rules
 
 1. **Learn by building.** I read theory only when the code in front of me needs it.
-2. **I type every line of Go.** AI is my senior advisor and Go teacher: it explains, reviews after I've written the code, and gives hints. It never writes the solution.
+2. **I type every line of Go.** AI is my senior advisor and Go teacher: it explains, reviews after I've written the code, and gives hints. It never writes the solution. **How the mentor works is in `MENTOR.md`.**
 3. **Theory rule:** when I'm stuck, I get a ≤10-min lesson on my own code plus **one** source to go deeper. I read only one book at a time, and only the chapters I need now.
 4. **Learned means used.** A concept goes into `LEARNED.md` only with a link to the file or commit where I used it.
 5. **There is one system: Kiln.** Every other tool either gets called by it or is archived.
@@ -56,7 +56,7 @@ A plan I keep for the long run, with **Go as the foundation** and every other en
 - System design, Kubernetes and observability come in because the projects need them.
 
 **Project structure ritual (every project):**
-1. Write 10 lines on what it does before writing any code.
+1. Write a one-page design doc (`docs/design.md`) and get it through a design review before any code (see `MENTOR.md`).
 2. Build a walking skeleton: `main.go` first, then the thinnest path that works end to end, then grow it.
 3. Add packages (`cmd/`, `internal/`, …) only when the code forces it.
 4. Mentor support fades along the ladder:
