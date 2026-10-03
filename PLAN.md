@@ -48,9 +48,11 @@ A plan I keep for the long run, with **Go as the foundation** and every other en
 
 ## Project track
 
-- A ladder of about 6–8 projects, then one flagship.
-- The projects must be **real, modern systems** that would catch a big-tech reviewer's eye, not small Go exercises.
-- They are designed in a **separate grilling session (2026-10-02, tonight)** and recorded in `LADDER.md`.
+- **The ladder lives in `LADDER.md`** (settled 2026-10-03): 7 rungs, each a public repo and a real component of the flagship **Crawl Toll**, a toll booth for AI crawlers (identify → verify → policy → meter → bill).
+- Rungs: botcheck → tollgate → ledger → kvlite → ratekeeper → spool → meter → ★ crawltoll.
+- **Each rung has a 6-week cap**, and the definition of done is a README with design and trade-offs, `-race` tests in CI, one measured number, and a 10× section.
+- **Kubernetes comes in step by step:** first cluster at rung 5, state at 6, Helm at 7, k3s in production for the flagship. I type the manifests too.
+- **Apply trigger:** milestones 1–3 + ~60 LeetCode + 3 public ladder repos. The resume card says "apply now" once.
 - System design, Kubernetes and observability come in because the projects need them.
 
 **Project structure ritual (every project):**
@@ -98,7 +100,7 @@ A plan I keep for the long run, with **Go as the foundation** and every other en
 
 ## Timeline
 
-- **2026-10-02 (tonight):** projects grilling session → `LADDER.md`.
+- **2026-10-02/03:** projects grilling session → `LADDER.md` ✓.
 - **2026-10-03/04:** AI builds Kiln v1. I prepare for the izicontrol demo on my own; the demo comes before everything.
 - **Monday:** izicontrol demo.
 - **Tuesday:** first sitting. I write the first line of Go.
