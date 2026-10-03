@@ -101,6 +101,6 @@ A plan I keep for the long run, with **Go as the foundation** and every other en
 ## Timeline
 
 - **2026-10-02/03:** projects grilling session → `LADDER.md` ✓.
-- **2026-10-03/04:** AI builds Kiln v1. I prepare for the izicontrol demo on my own; the demo comes before everything.
+- **2026-10-03/04:** AI builds Kiln v1 ✓ (built 2026-10-03, `~/PROJECTS/kiln`, branch `kiln-v1`). I prepare for the izicontrol demo on my own; the demo comes before everything.
 - **Monday:** izicontrol demo.
 - **Tuesday:** first sitting. I write the first line of Go.
