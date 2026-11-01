@@ -58,7 +58,7 @@ A static portfolio/blog site (AI builds it, the only non-Go thing it builds) goe
 **Design doc:** *(I write `docs/design.md` at the first sitting, walked through by the mentor, before slice 1.)*
 
 **Slices:**
-- [x] 1. **Walking skeleton:** an empty folder, then `go mod init`, then a `main.go` that reads log lines from stdin and prints them.
+- [ ] 1. **Walking skeleton:** an empty folder, then `go mod init`, then a `main.go` that reads log lines from stdin and prints them.
 - [ ] 2. **Parse:** turn an nginx combined-log line into a struct (IP, time, method, path, status, user-agent), with table tests.
 - [ ] 3. **Identify:** match known AI-crawler user-agents (GPTBot, ClaudeBot, PerplexityBot, CCBot, Bytespider…) and print a count per bot.
 - [ ] 4. **Verify:** check the IP against the bot's published IP ranges where they exist, otherwise reverse DNS. Mark each request verified or spoofed, and handle timeouts and errors properly.
