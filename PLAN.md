@@ -8,6 +8,8 @@ A plan I keep for the long run, with **Go as the foundation** and every other en
 
 **Goal:** get hired by a strong company, Go backend at big tech (Yandex / Ozon / Avito), by becoming really good, not by collecting certificates.
 
+**Update 2026-11-12: two tracks.** Computer vision is now my **main** track. It is the most realistic way for me to get paid here, through QS, the inspection business with my friend. Go stays as the second track, unchanged. The CV track has the same shape as the Go one: a ladder (`CV-LADDER.md`), a design note per level, slices, a definition of done, the mentor contract (`MENTOR.md` §11) and a resource library (`CV-RESOURCES.md`). CV goal: an applied industrial CV engineer who can build, measure, deploy and debug inspection on a real line.
+
 ## Core rules
 
 1. **Learn by building.** I read theory only when the code in front of me needs it.
@@ -18,8 +20,9 @@ A plan I keep for the long run, with **Go as the foundation** and every other en
 
 ## Time
 
-- 6–8 h/week for now, and it can go up or down.
-- The split between projects and algorithms changes week to week; there is no fixed ratio. Projects come first for now.
+- About 8 h/week for now, and it can go up or down.
+- **Rhythm (2026-11-12): 3 CV weeks, then 1 Go week.** A Go week is Crawl Toll slices. **One algorithm problem every week**, CV week or not.
+- Within a Go week, projects come first.
 - **Reminder:** if algorithms or projects get 0 sittings for 14 days, the resume card says so once. It reminds me and never blocks me.
 
 ## A sitting
@@ -39,6 +42,14 @@ A plan I keep for the long run, with **Go as the foundation** and every other en
 4. Profiling and speeding up real code with `pprof` and benchmarks.
 5. Explaining out loud, at interview level, how goroutine scheduling, interfaces, slice/map internals and the GC work.
 6. About 100 LeetCode problems solved in Go.
+
+## CV track (main, since 2026-11-12)
+
+- **The ladder lives in `CV-LADDER.md`:** 8 levels, and each level is one QS module, from basics up: color → rims → geometry → patchcore → evaluate → detector → edge → linestream. Marking/OCR is added when QS builds that station.
+- **Each level runs one loop:** study the picks in `CV-RESOURCES.md` → explain the QS module in my words → rebuild it by hand in my public `cv-lab` repo, with one measured number against QS's version.
+- **QS stays AI-built.** The explain-before-merge rule for QS vision PRs starts at QS's line gate or 2027-01-15, whichever comes first.
+- **Resources:** `CV-RESOURCES.md` is a checked library of free video courses (Nayar's First Principles of CV, CS231n, Johnson's EECS 498, Karpathy, fast.ai, DLS in Russian), books (Szeliski, d2l.ai), papers and codebases, plus exact picks for each level.
+- After level 8: a new grilling session to decide what comes next.
 
 ## Algorithms track (serious, in Go)
 
@@ -89,6 +100,7 @@ A plan I keep for the long run, with **Go as the foundation** and every other en
 - `kiln-journal`: this repo. It holds `PLAN.md`, `LADDER.md`, `LOG.md`, `LEARNED.md` and notes.
 - One GitHub repo per ladder project, so they're visible on my profile.
 - `go-learning-log`: the algorithms.
+- `cv-lab`: my hand-written CV rebuilds, one folder per CV level, public. No factory images in it.
 
 ## Old systems
 
