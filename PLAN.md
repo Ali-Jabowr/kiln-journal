@@ -22,6 +22,7 @@ A plan I keep for the long run, with **Go as the foundation** and every other en
 
 - About 8 h/week for now, and it can go up or down.
 - **Rhythm (2026-11-12): 3 CV weeks, then 1 Go week.** A Go week is Crawl Toll slices. **One algorithm problem every week**, CV week or not.
+- **Rhythm anchor: 2026-11-09.** The week starting that Monday is CV week 1; weeks 1–3 of every 4 are CV weeks and week 4 is a Go week. Kiln reads this line.
 - Within a Go week, projects come first.
 - **Reminder:** if algorithms or projects get 0 sittings for 14 days, the resume card says so once. It reminds me and never blocks me.
 
